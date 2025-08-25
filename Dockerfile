@@ -11,10 +11,10 @@ RUN apt-get update && \
     add-apt-repository -y ppa:deadsnakes/ppa && \
     apt-get update && \
     apt-get install -y --no-install-recommends \
-        python${PY} python${PY}-dev python${PY}-venv python${PY}-distutils && \
+        python${PY} python${PY}-dev python${PY}-venv python3-distutils && \
     ln -sf /usr/bin/python${PY} /usr/local/bin/python && \
     python${PY} -m ensurepip && \
-    python${PY} -m pip install --upgrade --no-cache-dir pip setuptools wheel && \
+    python${PY} -m pip install --upgrade --no-cache-dir pip setuptools wheel
 
 WORKDIR /app
 COPY . .
