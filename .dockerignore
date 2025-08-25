@@ -1,0 +1,28 @@
+.git
+.env
+__pycache__/
+.ipynb_checkpoints/
+*.pt
+*.ckpt
+*.bin
+*.distcp
+
+#  ビルド生成物
+dist/
+build/
+*.egg-info/
+
+#  モデルや重いファイル
+*.safetensors
+*.onnx
+*.pth
+
+#  アーカイブ・データセット
+*.tar
+*.zip
+*.csv
+*.jsonl
+*.parquet
+
+#  push しないフォルダ
+

@@ -1,0 +1,24 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+
+transformers==4.53.2
+accelerate
+byaldi
+pdf2image
+qwen-vl-utils
+ipywidgets
+jinja2
+wheel
+einops
+seaborn
+git+https://github.com/illuin-tech/colpali.git@main
+pillow
+tqdm
+qdrant-client
+datasets
+huggingface_hub
+matplotlib
+pdfplumber
+
